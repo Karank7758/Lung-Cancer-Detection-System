@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Model Metrics</title>
+</head>
+<body>
+    <h1>Model Metrics</h1>
+    <ul>
+        {% for metric, value in metrics.items() %}
+        <li>{{ metric }}: {{ value }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
